@@ -10,8 +10,9 @@
         rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url(https://images.unsplash.com/photo-1614030424754-24d0eebd46b2)
+        /* url(https://images.unsplash.com/photo-1614030424754-24d0eebd46b2) */
         /* url(/assets/background-gif.gif) */
+        url(/assets/maximalfocus-HakTxidk36I-unsplash.jpg)
         ;  
     background-position: top;
     height: 100vh;
