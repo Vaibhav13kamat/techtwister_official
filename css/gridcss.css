@@ -1,0 +1,99 @@
+
+/* event grid styles  */
+.item-common{
+    /* margin-bottom: 2rem; */
+    padding:0.12rem;
+    height: 20rem;
+    
+    background: black;
+    background-clip: content-box;
+    
+}
+
+.item-common img{
+    width: 100%;
+    height: 100%;
+
+}
+.item-common div:hover{
+    color: #c60841;
+}
+
+
+#item1{
+    display: flex;
+}
+
+#item2{
+
+}
+
+#item4{
+    display:flex;
+}
+
+
+
+
+
+
+#item1 > img {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#item1 > div{
+    font-size: 4em;
+  font-family: heroic;
+  color:  white;
+  margin-left: 1rem;
+}
+#item2 > img{
+    width: 100%;
+    height: auto;
+}
+#item2 > div{
+    font-size: 2rem;
+  font-family: heroic;
+  color:  white;
+  margin-left: 1rem;
+}
+#item3 > img{
+    width: 100%;
+    height: auto;
+}
+#item3 > div{
+    font-size: 2rem;
+  font-family: heroic;
+  color:  white;
+  margin-left: 1rem;
+}
+#item4 > img {
+    width: 50%;
+    height: 100%;
+}
+#item4 > div{
+    font-size: 4rem;
+  font-family: heroic;
+  color:  white;
+  margin-left: 1rem;
+}
+
+.item-common:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 0.5s ease;
+}
+
+@media only screen and (max-width:700px) {
+    .item-common{
+        position: relative;
+        width: 100%;
+        background-size: contain;
+        width: max-content;
+        
+    }
+}

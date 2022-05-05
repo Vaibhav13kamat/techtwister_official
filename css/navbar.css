@@ -1,0 +1,56 @@
+.navbar{
+    height: fit-content;
+    padding: 0%;
+  }
+  
+  .navbar-brand{
+    margin: auto;
+    text-align: center;
+    padding: 0%;
+  }
+  .navbar-brand p{
+    padding: 0%;
+    margin: 0%;
+    
+    margin-left: 1rem;
+  }
+  .navbar-collapse{
+    height: fit-content;
+  }
+  .navbar-collapse .navbar-brand{
+    margin: 0%;
+  }
+  
+  .nav-item{
+    padding: 0.5rem;
+  }
+  .nav-link .nav-font{
+    margin: auto;
+  }
+  .navbar-link img{
+    padding-top: 0.5rem;
+  }
+  
+  .navbar-nav{
+    padding: 0%;
+  }
+  .nav-mod{
+      background-color: #111;
+  }
+  
+  .nav-tech-twister{
+    font-size: 1.5rem;
+    font-family: valFont;
+    
+  }
+  
+  
+  .nav-font{
+    font-family:heroic;
+    font-size: 1.5rem;
+    color: white;
+    font-stretch: ultra-expanded;
+    letter-spacing: 0.13rem;
+  
+  }
+  

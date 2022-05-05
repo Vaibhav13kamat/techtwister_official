@@ -1,0 +1,31 @@
+@font-face {
+    font-family: heroic;
+    src: url(/assets/fonts/HeroicCondensed-Medium.otf);
+}
+
+@font-face {
+    font-family: adelle-sans;
+    src: url(/assets/fonts/Adelle\ Sans\ W01\ SemiBold.ttf);
+}
+
+@font-face {
+    font-family: valFont2;
+    src: url(/assets/fonts/FontFont_FF.Mark.Pro.Bold.otf);
+}
+@font-face {
+    font-family: valFont;
+    src: url(/assets/fonts/Valorant\ Font.ttf);
+}
+@font-face {
+  font-family: centuryExpanded;
+  src: url(/assets/fonts/CenturyExpanded.otf);
+}
+@font-face {
+  font-family: helvetica;
+  src: url(/assets/fonts/Helvetica.ttf);
+}
+@font-face {
+  font-family: futura-light;
+  src: url(/assets/fonts/futura-lt-light.ttf);
+}
+

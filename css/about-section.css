@@ -1,0 +1,19 @@
+#about-section{
+    padding-top: 5rem;
+    height: fit-content;
+    color: black;
+    font-weight: 300;
+    background-color: white;
+  
+  }
+  
+  #about-section > h2 {
+    font-family: heroic;
+    font-size: 3rem;
+    color:  black;
+  }
+  #about-section{
+    font-family: helvetica;
+    font-size: 1.1rem;
+  }
+  

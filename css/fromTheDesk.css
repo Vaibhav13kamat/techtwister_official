@@ -1,0 +1,35 @@
+#from-the-desk{
+    padding-top: 5rem;
+    height: fit-content;
+    font-weight: 300;
+    
+    background-color: rgb(236, 236, 236);
+  
+  }
+
+#from-the-desk div div .col-sm-4{
+    height: fit-content;
+    padding: 1rem;
+    font-family: centuryExpanded;
+    text-align: center;
+
+}
+#from-the-desk div div .col-sm-4 img{
+    border-radius: 50%;
+    
+}
+
+#from-the-desk div div .col-sm-4 p:nth-child(2){
+    font-family: adelle-sans;
+  font-size: 1.2rem;
+  color:  black;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  /* font-style: italic; */
+}
+#from-the-desk div div .col-sm-4 p:nth-child(3){
+    font-family: adelle-sans;
+  font-size: 0.9rem;
+  color:  rgb(78, 77, 77);
+  /* font-style: italic; */
+}

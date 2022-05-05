@@ -1,0 +1,42 @@
+.team-section{
+    background-color: white;
+    height: 70vh;
+    height: fit-content;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.pentagon{
+    height: fit-content;
+    width: 30vh;
+    margin: 0.2rem;
+    
+    
+}
+.pentagon > div > img{
+    border-radius: 100px;
+}
+.pentagon > p{
+    color: black;
+}
+
+
+#team-section > h2 >div{
+    font-family: heroic;
+  font-size: 3rem;
+  color:  black;
+}
+
+#team-section > div >div > div >div >.team-name{
+    font-family: adelle-sans;
+  font-size: 1.2rem;
+  color:  black;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  /* font-style: italic; */
+}
+#team-section > div >div > div >div >.team-designation{
+    font-family: adelle-sans;
+  font-size: 0.9rem;
+  color:  rgb(78, 77, 77);
+  /* font-style: italic; */
+}

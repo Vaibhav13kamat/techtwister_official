@@ -1,0 +1,29 @@
+.footer-edit{
+    height: fit-content;
+    background: linear-gradient(90deg
+        ,#f7c626 15%,#f68c2f 40%,#e5127d 85%);;
+    padding-bottom: 2rem;
+  }
+  
+  
+  
+  .footer-edit > div > div  >h2{
+    font-size: 2rem;
+    color: black;
+    /* font-weight: 700; */
+    text-transform: uppercase;
+    font-family: heroic;
+  }
+  .footer-edit > div > div  >p{
+    font-size: 1.05rem;
+    font-family: helvetica;
+    
+  }
+  .footer-edit > .container-fluid > .row > .col >p{
+    color: white;
+  }
+  
+  .bottom-bar{
+    height: 10vh;
+    background-color: #111;
+  }

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+	<EVENT>
+		<TITLE>Robo Soccer</TITLE>
+		<FIRST>6000</FIRST>
+		<SECOND>4000</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>3</NOPPT>
+		<FEES>200</FEES>
+		<RULES>
+			<RULE>rule 1</RULE>
+			<RULE>rule 2</RULE>
+		</RULES>
+	</EVENT>
+	<EVENT>
+		<TITLE>DRONE PHOTOGRAPHY</TITLE>
+		<FIRST>6000</FIRST>
+		<SECOND>4000</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<RULE>rule 1</RULE>
+		<RULE>rule 2</RULE>
+		
+	</EVENT>
+	<EVENT>
+		<TITLE>PUBG</TITLE>
+		<FIRST>6000</FIRST>
+		<SECOND>4000</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+	</EVENT>
+
+
+
+
+
+
+
+
+
+
+	<!-- <CD>
+		<TITLE>Empire Burlesque</TITLE>
+		<ARTIST>Bob Dylan</ARTIST>
+		<COUNTRY>USA</COUNTRY>
+		<COMPANY>Columbia</COMPANY>
+		<PRICE>10.90</PRICE>
+		<YEAR>1985</YEAR>
+	</CD>
+	
+	<CD>
+		<TITLE>Unchain my heart</TITLE>
+		<ARTIST>Joe Cocker</ARTIST>
+		<COUNTRY>USA</COUNTRY>
+		<COMPANY>EMI</COMPANY>
+		<PRICE>8.20</PRICE>
+		<YEAR>1987</YEAR>
+	</CD> -->
+</CATALOG>

@@ -1,0 +1,158 @@
+
+/* .shadow {
+    -moz-box-shadow:    inset 1rem 1rem 4rem #000000;
+    -webkit-box-shadow: inset 1rem 1rem 4rem #000000;
+    box-shadow:         inset 100px 100px 100px #000000;
+ } */
+.modal-content{
+    /* border: solid  4px; */       
+    background: linear-gradient(90deg
+      ,#f7c626 15%,#f68c2f 40%,#e5127d 85%);;
+
+    color:white;
+    /* border-radius: 1rem; */
+    padding: 0.2rem;
+    box-shadow: inset 0px 0px 0.4rem 0.1rem  rgba(231, 231, 231, 0.692);
+}
+.modal-content > .container{
+    background-color: rgba(37, 37, 37, 1);
+    padding: 2rem;
+    margin: 0%;
+}
+
+#my-modal-title{
+    font-size: 3rem;
+    font-family: valFont2;
+}
+
+
+
+
+
+.modal-header{
+    border-bottom: none;
+}
+
+.modal-title{
+    font-size: 4rem;
+    font-family: heroic;
+}
+
+
+.modal-body{
+    height: fit-content
+}
+
+.modal-footer{
+    border-top: none;
+}
+
+.general-rules-heading{
+    margin-top: 1rem;
+    size: 2rem;
+}
+
+.rules3 div{
+    background-color: rgba(51, 51, 51, 1);
+    /* border-radius: 10px; */
+    padding: 0.1rem;
+    padding-left: 1rem;
+    margin-top: 0.3rem;
+    
+    
+}
+
+#rules{
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+
+#rules p{
+    margin-bottom: 0%;
+}
+
+
+/* prizes  */
+
+
+.prize-box {
+    width: 12rem;
+    height: 3.5rem;
+    padding: 0%;
+    margin: 1rem;
+    background: rgba(51, 51, 51, 1);
+    border-radius: 9px;
+    align-items: center;
+    display: flex;
+
+
+
+}
+
+.place-box {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: rgba(68, 68, 68, 1);
+    border-radius: 9px;
+    align-content: center;
+}
+.place{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(0, 153, 255);
+    font-weight: 700;
+}
+
+
+.prize-value{
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    /* float: right; */
+}
+
+
+
+.BUTTON_ROQ {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: min-content;
+    height: max-content;
+    flex: 100%;
+    margin-left: 7rem;
+    margin-right: 7rem;
+ }
+ 
+ .BUTTON_ROQ:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
