@@ -51,6 +51,11 @@
     color: white;
     font-stretch: ultra-expanded;
     letter-spacing: 0.13rem;
-  
+
   }
-  
+  .nav-font:hover{
+    color: #c60841;
+    text-shadow: 0 0 5px #FFFFFF;
+    text-shadow: 0 0 10px #a55f5f;
+    text-shadow: 0 0 20px #da6262;
+   }

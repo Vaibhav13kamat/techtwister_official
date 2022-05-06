@@ -108,8 +108,17 @@
         width: 100%;    
         
     }
+    .item-common img{
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        padding: 0.5rem;
+    }
     .item-common div{
+        margin: unset;
+        margin-top: 0.5rem;
         padding-bottom: 4rem;
+        font-family: heroic;
+
     }
     .item-type-long{
         display: grid;
