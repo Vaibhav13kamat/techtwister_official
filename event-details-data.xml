@@ -14,9 +14,9 @@
 		</RULES>
 	</EVENT>
 	<EVENT>
-		<TITLE>DRONE PHOTOGRAPHY</TITLE>
-		<FIRST>6000</FIRST>
-		<SECOND>4000</SECOND>
+		<TITLE>!Click</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
 		<DAY>1</DAY>
 		<NOTPC>Unlimited</NOTPC>
 		<RULE>rule 1</RULE>
@@ -24,11 +24,110 @@
 		
 	</EVENT>
 	<EVENT>
-		<TITLE>PUBG</TITLE>
+		<TITLE>BGMI</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+	</EVENT>
+	<EVENT>
+		<TITLE>DRONE PHOTOGRAPHY</TITLE>
 		<FIRST>6000</FIRST>
 		<SECOND>4000</SECOND>
 		<DAY>1</DAY>
 		<NOTPC>Unlimited</NOTPC>
+		<RULE>rule 1</RULE>
+		<RULE>rule 2</RULE>
+	</EVENT>
+	<EVENT>
+		<TITLE>Quiz</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<RULE>rule 1</RULE>
+		<RULE>rule 2</RULE>
+	</EVENT>
+	<EVENT>
+		<TITLE>Debate</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<RULE>rule 1</RULE>
+		<RULE>rule 2</RULE>
+	</EVENT>
+	<EVENT>
+		<TITLE>Line Follower</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<RULE>rule 1</RULE>
+		<RULE>rule 2</RULE>
+	</EVENT>
+	<EVENT>
+		<TITLE>Projecto</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<RULE>rule 1</RULE>
+		<RULE>rule 2</RULE>
+	</EVENT>
+	<EVENT>
+		<TITLE>Debugging</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<RULE>rule 1</RULE>
+		<RULE>rule 2</RULE>
+	</EVENT>
+	<EVENT>
+		<TITLE>Web Design</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<RULE>rule 1</RULE>
+		<RULE>rule 2</RULE>
+	</EVENT>
+	<EVENT>
+		<TITLE>Hardware Project</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<RULE>rule 1</RULE>
+		<RULE>rule 2</RULE>
+	</EVENT>
+	<EVENT>
+		<TITLE>Lathe Master</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<RULE>rule 1</RULE>
+		<RULE>rule 2</RULE>
+	</EVENT>
+	<EVENT>
+		<TITLE>Tech Out of Waste</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<RULE>rule 1</RULE>
+		<RULE>rule 2</RULE>
+	</EVENT>
+	<EVENT>
+		<TITLE>NFS Most Wanted</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<RULE>rule 1</RULE>
+		<RULE>rule 2</RULE>
 	</EVENT>
 
 
