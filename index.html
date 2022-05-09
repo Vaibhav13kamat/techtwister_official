@@ -4,15 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+
     <script src="jquery/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
     <!-- <script src="Bootstrap/js/bootstrap.js"></script> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    
+
 
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/top-banner.css">
     <link rel="stylesheet" href="css/section1.css">
     <link rel="stylesheet" href="css/valorantButtons.css">
     <link rel="stylesheet" href="css/navbar.css">
@@ -25,7 +27,7 @@
 
 
 
-    
+
     <script>
         $(function () {
             $("#includedContent").load("event-details.html");
@@ -33,19 +35,41 @@
     </script>
     <link rel="stylesheet" href="css/event-details.css">
     <script src="scripts/modal-content-setter.js"></script>
+    <script src="scripts/top-banner.js"></script>
 
 
 
     <title>Tech Twister</title>
+
+    <!-- banner  -->
+    <div class="banner container-fluid ">
+
+        <div class="row justify-content-around">
+            <div class="col-3 text-center">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <div class="col-4 text-center css-selector">
+                Shree Rayeshwar Institute of Engineering & Information Technology
+            </div>
+            <div class="col-3 text-center   ">
+                <img src="assets/tt.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-black p-2 container-ab demo animated">
-
+        <div class="text-center   m-1   ">
+            <img src="assets/favicon.ico" alt="">
+        </div>
         <a class="navbar-brand" href="#">
             <p class="nav-tech-twister">Tech Twister</p>
         </a>
+        
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -87,8 +111,7 @@
 
 
     <div id="video-section" class="container-fluid">
-        <div
-            class="row my-custom-row justify-content-center align-items-center flex-column ">
+        <div class="row my-custom-row justify-content-center align-items-center flex-column ">
             <p class="vs-tt hack text-center ">TECH TWISTER 2022</p>
             <button class="btn w-auto" onclick="location.href='#events-section'">
                 <span class="btn__inner">
@@ -403,13 +426,13 @@
                     </div>
                 </div>
             </div>
-           
+
 
         </div>
     </div>
 
 
-    
+
 
 
 

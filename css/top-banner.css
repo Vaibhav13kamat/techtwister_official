@@ -1,0 +1,28 @@
+.banner {
+    background: #000820;
+    margin: 0;
+    padding: 1rem;
+    height: fit-content;
+  }
+
+  .banner div div {
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  
+  .banner div div:nth-child(2) {
+    font-size: 2vw;
+  }
+
+  @media only screen and (max-width:900px) {
+    .banner div div:nth-child(2) {
+      font-size: 4vw;
+      border: solid 1px;
+    }
+
+  }
+
+
+ 
