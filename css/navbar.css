@@ -59,3 +59,45 @@
     text-shadow: 0 0 10px #a55f5f;
     text-shadow: 0 0 20px #da6262;
    }
+
+
+   .container-ab {
+    /*outline: 1px solid red;*/
+    border: 0.2rem solid transparent;
+    /* border-top: none; */
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+   .demo {
+    /*background-image:
+      linear-gradient(white, white),
+      linear-gradient(180deg, cornflowerblue, purple);*/
+
+    background-image:
+      linear-gradient(white, white),
+      linear-gradient(270deg, #00D7B9, #B95DD7 50%, #FFB367 100%);
+
+    background-repeat: no-repeat;
+    background-origin: padding-box, border-box;
+    text-align: center;
+  }
+
+  .animated {
+    background-image:
+      linear-gradient(#202020,#202020),
+      linear-gradient(180deg, #00D7B9, #B95DD7 50%, #FFB367 100%);
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%, 100% 200%;
+    background-position: 0 0, 0 100%;
+    background-origin: padding-box, border-box;
+    animation: highlight 0.5s infinite alternate;
+  }
+
+  @keyframes highlight {
+    100% {
+      background-position: 0 0, 0 0;
+    }
+  }

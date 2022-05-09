@@ -31,7 +31,7 @@
 		<NOTPC>Unlimited</NOTPC>
 	</EVENT>
 	<EVENT>
-		<TITLE>DRONE PHOTOGRAPHY</TITLE>
+		<TITLE>DRONE CINEMATOGRAPHY</TITLE>
 		<FIRST>6000</FIRST>
 		<SECOND>4000</SECOND>
 		<DAY>1</DAY>
@@ -129,31 +129,4 @@
 		<RULE>rule 1</RULE>
 		<RULE>rule 2</RULE>
 	</EVENT>
-
-
-
-
-
-
-
-
-
-
-	<!-- <CD>
-		<TITLE>Empire Burlesque</TITLE>
-		<ARTIST>Bob Dylan</ARTIST>
-		<COUNTRY>USA</COUNTRY>
-		<COMPANY>Columbia</COMPANY>
-		<PRICE>10.90</PRICE>
-		<YEAR>1985</YEAR>
-	</CD>
-	
-	<CD>
-		<TITLE>Unchain my heart</TITLE>
-		<ARTIST>Joe Cocker</ARTIST>
-		<COUNTRY>USA</COUNTRY>
-		<COMPANY>EMI</COMPANY>
-		<PRICE>8.20</PRICE>
-		<YEAR>1987</YEAR>
-	</CD> -->
 </CATALOG>
