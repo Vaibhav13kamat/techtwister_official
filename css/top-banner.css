@@ -11,15 +11,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
+
   
   .banner div div:nth-child(2) {
     font-size: 2vw;
+    padding: none;
   }
 
   @media only screen and (max-width:900px) {
     .banner div div:nth-child(2) {
-      font-size: 4vw;
-      border: solid 1px;
+      font-size: 3vw;
     }
 
   }
