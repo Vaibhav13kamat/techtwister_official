@@ -33,3 +33,7 @@
   color:  rgb(78, 77, 77);
   /* font-style: italic; */
 }
+
+#text{
+  display: none;
+}

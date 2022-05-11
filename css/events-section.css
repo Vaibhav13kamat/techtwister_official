@@ -133,6 +133,13 @@
       font-family: heroic;
       color:  white;
       margin-left: 1rem;
+
+
+        word-spacing :unset;
+        font-weight: unset;
+        letter-spacing: unset;
+        text-transform: unset;
+        line-height: normal;
     }
 
 
