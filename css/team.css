@@ -12,6 +12,15 @@
     
     
 }
+.pentagon > div >  .imp-team-member{
+  height: 150px;
+  width: 150px;
+  align-self: center;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .pentagon > div > img{
     border-radius: 100px;
 }
