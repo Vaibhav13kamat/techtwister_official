@@ -48,7 +48,7 @@
 		</STUDENTS>
 	</EVENT>
 	<EVENT>
-		<TITLE>!Click (HSSC)</TITLE>
+		<TITLE>!Click (HSSC and Diploma)</TITLE>
 		<FIRST>3000</FIRST>
 		<SECOND>1500</SECOND>
 		<DAY>1</DAY>
@@ -321,7 +321,7 @@
 		<SECOND>1500</SECOND>
 		<DAY>1</DAY>
 		<NOTPC>Unlimited</NOTPC>
-		<NOPPT>1</NOPPT>
+		<NOPPT>2</NOPPT>
 		<FEES>50</FEES>
 		<RULES>
 			<RULE>Permitted Tools: HTML,JavaScript, CSS, Scss etc. Reusable codes frameworks are prohibited.</RULE>
@@ -390,12 +390,12 @@
 	</EVENT>
 	<EVENT>
 		<TITLE>Lathe Master</TITLE>
-		<FIRST>4000</FIRST>
-		<SECOND>2000</SECOND>
+		<FIRST>2500</FIRST>
+		<SECOND>1500</SECOND>
 		<DAY>1</DAY>
 		<NOTPC>Unlimited</NOTPC>
 		<NOPPT>1</NOPPT>
-		<FEES>50</FEES>
+		<FEES>100</FEES>
 		<RULES>
 			<RULE>Unleash your machining skills, and let in to the groove of screeching rhythms of turning, facing, tapering and all you can do on a lathe machine.</RULE>
 			<RULE>Contestants have to perform machining operations in the lathe within the given time. </RULE>
@@ -433,12 +433,12 @@
 	</EVENT>
 	<EVENT>
 		<TITLE>Catapult</TITLE>
-		<FIRST>3000</FIRST>
-		<SECOND>1500</SECOND>
+		<FIRST>4500</FIRST>
+		<SECOND>3000</SECOND>
 		<DAY>1</DAY>
 		<NOTPC>Unlimited</NOTPC>
 		<NOPPT>1</NOPPT>
-		<FEES>50</FEES>
+		<FEES>150</FEES>
 		<RULES>
 			<RULE>The event will begin at 9:30 am and continue until all teams have completed their test trial after which rounds will begin from 10:30 am.</RULE>
 			<RULE>Each team must consist of three (3) or four (4) members and each member may only be assigned to one team. </RULE>
