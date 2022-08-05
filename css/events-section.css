@@ -1,5 +1,5 @@
 #events-heading{
-    padding-top: 5.5rem;
+    /* padding-top: 5.5rem; */
     font-size: 3rem;
     font-family: heroic;
     color:  white;
@@ -108,8 +108,17 @@
         width: 100%;    
         
     }
+    .item-common img{
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        padding: 0.5rem;
+    }
     .item-common div{
+        margin: unset;
+        margin-top: 0.5rem;
         padding-bottom: 4rem;
+        font-family: heroic;
+
     }
     .item-type-long{
         display: grid;
@@ -124,6 +133,13 @@
       font-family: heroic;
       color:  white;
       margin-left: 1rem;
+
+
+        word-spacing :unset;
+        font-weight: unset;
+        letter-spacing: unset;
+        text-transform: unset;
+        line-height: normal;
     }
 
 
@@ -175,6 +191,7 @@
     font-weight: 300;
     font-style: italic;
     font-size: 1.4rem;
+    text-align: right;
   }
   
   #tech-twi-after-events{

@@ -60,6 +60,28 @@ function fun(a) {
         let p = document.createElement('p');
         p.innerText=ruleXmlNode.innerHTML;
         rulearea.appendChild(p);
+        let br= document.createElement('br');
+        rulearea.appendChild(br);
+    });
+
+    // staff 
+    document.getElementById("staff").innerHTML="";
+    let staffarea=document.getElementById("staff");
+    let staffs= events[a].querySelectorAll('STAFF');
+    staffs.forEach(ruleXmlNode => {
+        let p = document.createElement('p');
+        p.innerText=ruleXmlNode.innerHTML;
+        staffarea.appendChild(p);
+    });
+
+    // student
+    document.getElementById("students").innerHTML="";
+    let studentarea=document.getElementById("students");
+    let students= events[a].querySelectorAll('STUDENT');
+    students.forEach(ruleXmlNode => {
+        let p = document.createElement('p');
+        p.innerText=ruleXmlNode.innerHTML;
+        studentarea.appendChild(p);
     });
 
 

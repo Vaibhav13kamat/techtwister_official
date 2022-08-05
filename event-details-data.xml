@@ -6,55 +6,589 @@
 		<SECOND>4000</SECOND>
 		<DAY>1</DAY>
 		<NOTPC>Unlimited</NOTPC>
-		<NOPPT>3</NOPPT>
-		<FEES>200</FEES>
+		<NOPPT>Max 4</NOPPT>
+		<FEES>100</FEES>
 		<RULES>
-			<RULE>rule 1</RULE>
-			<RULE>rule 2</RULE>
+			<RULE>Each team will have one bot and can comprise of a maximum of 4 members.</RULE>
+			<RULE>Bots can be Wireless (Bluetooth controlled or RC, etc.) or wired.</RULE>
+			<RULE>Bot specification (maximum): Bot weight 5kg, Length of the bot= 30cm (inclusive of
+			clamps) , Width= 30cm , Height=30cm,Operating voltage=12V.</RULE>
+			<RULE>Clamp width must be minimum 15cms, with minimum depth of about 5-6cms. Clamp
+			should be stationary i.e without any moving parts and can be of any shape with an angle
+			of not less than 90°.</RULE>
+			<RULE>For students making wired bots, they have to get their own extension boards and students
+			making wireless bots should bring their own batteries etc.</RULE>
+			<RULE>No weapons allowed (like external gears, cutters, etc).</RULE>
+			<RULE>No carrying or lifting the ball using arms or any other means, and no shielding or
+			covering the ball in any way.</RULE>
+			<RULE>No ramming purposely, yellow card for ramming once or twice, disqualification for
+			ramming the third time. Play fair.</RULE>
+			<RULE>Please shield the tires to avoid the ball getting stuck in the same.</RULE>
+			<RULE>The competition shall consist of 3 rounds.</RULE>
+			<RULE>Each round will consist of 2 halves each of 3mins and the team scoring the most number
+			of goals will be declared the winner.</RULE>
+			<RULE>In case of a tie, there will be a extended match where there will be a time limit of 2mins
+			add on and the team that scores first wins.</RULE>
+			<RULE>If there is still a draw, then the coordinators will keep each team’s bot and ball in
+			different locations on the arena from where they will have to figure out a way to score a
+			goal. The bot can only touch the ball once.</RULE>
+			<RULE>In case the bot breaks, then a maximum of 15 minutes will be given for repairs. Failing to
+			repair the bot within the time limit will lead to disqualification.</RULE>
+
+			<RULE>Note: The decision of the Coordinator will be the final decision in case of any discrepancies.
+			They hold the right to change the rules to promote fair play, sportsmanship, and to ensure
+			that all competitors have an enjoyable competition. For any queries contact the coordinators.</RULE>
 		</RULES>
+		<STAFFS>
+			<STAFF>Mr Shreeyank Jambhale</STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT>Mr Pradeep Das (9552112460)</STUDENT>
+			<STUDENT>Mr Rupam Lotlikar (96044 67382)</STUDENT>
+		</STUDENTS>
 	</EVENT>
 	<EVENT>
-		<TITLE>DRONE PHOTOGRAPHY</TITLE>
-		<FIRST>6000</FIRST>
-		<SECOND>4000</SECOND>
+		<TITLE>!Click (HSSC and Diploma)</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
 		<DAY>1</DAY>
 		<NOTPC>Unlimited</NOTPC>
-		<RULE>rule 1</RULE>
-		<RULE>rule 2</RULE>
+		<NOPPT>1</NOPPT>
+		<FEES>Free</FEES>
+		<RULES>
+			<RULE>Basic knowledge of MSDOS Commands and MS Word.</RULE>
+			<RULE>Windows 7 keyboard shortcuts.</RULE>
+			<RULE>Round 1: Minute to Win It</RULE>
+			<RULE>Participants must perform the tasks given on the spot. Participants completing the task in
+			one minute will qualify for next round.</RULE>
+			<RULE>Round 2: Can you Word it?</RULE>
+			<RULE>Participants must perform tasks given in MS Word. Participants obtaining desired output
+			within specified time will qualify for the next round.</RULE>
+			<RULE>Round 3: Mystery lies behind the Keys</RULE>
+			<RULE>Details will be provided on the spot by event coordinators</RULE>
+		</RULES>
+		<STAFFS>
+			<STAFF>Mrs Harsha Chari</STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT>Mr Vaibhav Kamat (9156873120)</STUDENT>
+			<STUDENT>Ms Marushka Corriea (2325650395)</STUDENT>
+		</STUDENTS>
 		
 	</EVENT>
 	<EVENT>
-		<TITLE>PUBG</TITLE>
+		<TITLE>BGMI</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>4</NOPPT>
+		<FEES>50</FEES>
+		<RULES>
+			<RULE>Competition method: 4 v/s 4 (team play)</RULE>
+			<RULE>3 rounds (Erangle,Sanhok,Erangle)-TPP.</RULE>
+			<RULE>Game will be played at the venue.</RULE>
+			<RULE>No charging point/internet and other facilities will be provided.</RULE>
+			<RULE>Earphones and headphones are compulsory.</RULE>
+			<RULE>No emulators allowed.</RULE>
+			<RULE>No teaming up.</RULE>
+			<RULE>Fair play. (no hacks allowed)</RULE>
+			<RULE>Candidate should have their respective college ID cards.</RULE>
+			<RULE>Room IDs will be shared at the venue 10 mins prior to the event.</RULE>
+			<RULE>For further details contact the coordinators.</RULE>
+		</RULES>
+		<STAFFS>
+			<STAFF>Miss Deepmala Kale</STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT>Mr Vaibhav Kamat-9156873120</STUDENT>
+		</STUDENTS>
+	</EVENT>
+	<EVENT>
+		<TITLE>Drone Photography</TITLE>
 		<FIRST>6000</FIRST>
 		<SECOND>4000</SECOND>
 		<DAY>1</DAY>
 		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>1</NOPPT>
+		<FEES>100</FEES>
+		<RULES>
+			<RULE>Only Single participant
+				Max Three Photos are allowed to be submitted before the given time.
+				Photo enhancement is allowed, But you’re not allowed to manipulate.
+				No Watermark on the Photo.
+				The Photo Should be clicked in The Campus Surrounding.
+				Photos should be submitted In Doc format(with file name as their name)
+				All the photos should be in an aspect ratio of 16:9
+				If any queries contact the student coordinator.</RULE>
+		</RULES>
+		<STAFFS>
+			<STAFF>Mr Chilton Fernandes</STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT>Mr Shubam Jana (9545261978) </STUDENT>
+		</STUDENTS>
+	</EVENT>
+	<EVENT>
+		<TITLE>Quiz</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>2</NOPPT>
+		<FEES>50</FEES>
+		<RULES>
+			<RULE>All participants have to register through email in advance or at registration desk.</RULE>
+			<RULE> TOPIC : General</RULE>
+			<RULE> Team of max two persons.</RULE>
+			<RULE> Cross College teams are allowed.</RULE>
+			<RULE> Members must be college or HSS students.</RULE>
+			<RULE> The decision of the quiz master will be final and will not be subjected to any change.</RULE>
+			<RULE> Quiz will consist of two rounds . preliminary and final.</RULE>
+			<RULE> No Negative marking for the preliminary round.</RULE>
+			<RULE> Top 4 teams would be selected for final rounds.</RULE>
+			<RULE> Team of max two persons.</RULE>
+			<RULE> No use of electronic devices.</RULE>
+			<RULE> Any other issues will be decided by the judgement of the coordinator.</RULE>
+		</RULES>
+		<STAFFS>
+			<STAFF>Miss E Akila</STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT>Ms. Ruchi Dessai</STUDENT>
+		</STUDENTS>
+	</EVENT>
+	<EVENT>
+		<TITLE>Zunjh (debate)</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>2</NOPPT>
+		<FEES>50</FEES>
+		<RULES>
+			<RULE>Debate topic will be informed to the teams before hand, each college should have one for and one against team</RULE>
+			<RULE>Each team to be ready and seated in the debate hall before scheduled start time.</RULE>
+			<RULE>Each team will be given a total of 8 mins for which includes: 6-7 mins of constructive speech. 1-2 mins of rebuttal. </RULE>
+			<RULE>Both members of a team should speak.</RULE>
+			<RULE>A warning bell will be given 1 min prior to the final bell for each team. </RULE>
+			<RULE>After all teams have finished making their points, the judges will ask questions to each team. </RULE>
+			<RULE>Marks will be deducted on exceeding the time limit.</RULE>
+			<RULE>Use of disrespectful language, personal comments is strictly prohibited and negative marking or disqualification will be applied. </RULE>
+			<RULE>The decision of the judges and the organizing committee will be final and binding.</RULE>
+			<RULE>The teams will be judged on: Content, confidence, arguments and rebutting skills</RULE>
+
+		</RULES>
+		<STAFFS>
+			<STAFF> Mr  Saiesh Prabhu Verlekar</STAFF>
+			<STAFF> Mrs  Manjusha Sanvordekar </STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT>Miss Shravani Nevagi</STUDENT>
+		</STUDENTS>
+	</EVENT>
+	<EVENT>
+		<TITLE>Line Follower</TITLE>
+		<FIRST>6000</FIRST>
+		<SECOND>4000</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>2-4</NOPPT>
+		<FEES>100</FEES>
+		<RULES>
+			<RULE>Bot specifications</RULE>
+			<RULE>The overall specifications of the bot must not exceed the following (including tolerance)
+				:
+				28 cm in length
+				22 cm in width,
+				20 cm in overall height 2kg in total weight.
+				nolego and ready-made bot.
+				Max voltage 12V</RULE>
+			<RULE>The competition will be of 2 rounds. Round 1 shall be a qualifier round and round 2
+			shall be the final round.</RULE>
+			<RULE>In round 1, every team will be give 2 time trials. Least time with best out of 2 given
+			trails will be judged upon of 3 minutes before the final.</RULE>
+			<RULE>For the 1st trial a test run of 3mins will be given after which immediately 1st time trial
+			will follow</RULE>
+			<RULE>Team can give 2nd and final trail immediately after 1st or later. There won&#39;t be any
+			TEST RUN for 2nd trial.</RULE>
+			<RULE>The bot must cover the entire track within 4 min minutes to qualify for the final round.</RULE>
+			<RULE>Any shortcut paths and deviation from the main line will lead to placing of the bot back
+			to the nearest check point. Coordinators decision will be counted as the final.</RULE>
+			<RULE>In case if no bot is able to complete the track in given time, bot covering maximum
+			checkpoint in minimum time will be shortlisted for the final round.</RULE>
+			<RULE>Width of the line will be 3cm.The participants shall be informed in prior by the event
+			coordinators if there is any change in the width of the line.</RULE>
+			<RULE>The track will be black line on white background or white line on black background.</RULE>
+
+			<RULE>The Line Follower Bot must be fully self-contained and must not be externally operated
+			by wire or remote radio control during the course of the race.</RULE>
+			<RULE>The overall specifications of the bot must not exceed the following: 28 cm in overall
+			length, 22 cm in overall width, 20 cm in overall height and 5kg in total weight.</RULE>
+			<RULE>Before commencement of the actual racing, the teams will be allowed to test their bots
+			on the track but only for limited period of time as decided by the coordinators.</RULE>
+			<RULE>Once the bot is placed on the track, a maximum of 8 touches will be allowed to reset the
+			bot on the right track and a penalty of 5 sec per touch shall be added to the total time.</RULE>
+			<RULE>No checkpoint can be skipped.</RULE>
+			<RULE>Winner shall be the group which finishes the track in the shortest time. In case no team
+			manages to finish the track, then the prize shall be given to the team who completes
+			most part of the track in shortest time and with minimum touches.</RULE>
+			
+		</RULES>
+		<STAFFS>
+			<STAFF>Mr Shreeyank Jambhale</STAFF>
+			<STAFF>Mr Viren Pereira</STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT>Mr Sanket Sawant 9370363205</STUDENT>
+			<STUDENT>Mr Deepesh Chari 8669154430</STUDENT>
+		</STUDENTS>
+	</EVENT>
+	<EVENT>
+		<TITLE>Projecto</TITLE>
+		<FIRST>6000</FIRST>
+		<SECOND>4000</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>Max 5</NOPPT>
+		<FEES>100</FEES>
+		<RULES>
+			<RULE>All participants have to register through email in advance or at registration desk.</RULE>
+			<RULE>The synopsis should be mailed at   techtwister22@gmail.com on or before 30th march 2016.</RULE>
+			<RULE>Hardware Projects-Hardware requirements like power supply, oscilloscopes (Quantity subject to availability) , etc. And required quantity must be clearly specified along with the synopsis.</RULE>
+			<RULE>Software Projects- The software required for the project needs to be brought by the participants. High end configuration of the system if required needs to be specified well in advance.</RULE>
+			<RULE>Students should come along with their identity card at the time of project representation.</RULE>
+			<RULE>Decision of the judges and the organising committee will be final and binding.</RULE>
+			<RULE>Scrutiny will be on the spot by the project experts.</RULE>
+
+			<RULE>FORMAT OF SYNOPSIS</RULE>
+
+			<RULE>Title of the project</RULE>
+			<RULE> Category of the project (hardware project and software)</RULE>
+			<RULE> Group member details</RULE>
+			<RULE> Name of the college and the address</RULE>
+			<RULE> Brief description of the project</RULE>
+			<RULE> Application of the project</RULE>
+			<RULE>Conclusion</RULE>
+
+
+			<RULE>TEXT FORMAT</RULE>
+
+			<RULE>Number of pages : 10(exclusive of other details)</RULE>
+			<RULE> * Font : Times New Roman</RULE>
+			<RULE> * Font Size : 12(normal text)</RULE>
+			<RULE> * Synopsis must be either in .doc(Microsoft Word) or .pdf format only</RULE>
+
+
+
+		</RULES>
+		<STAFFS>
+			<STAFF>Veena Gaonkar -8975908622</STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT>Deeptesh Chari -8669154430</STUDENT>
+			<STUDENT>Virendrakumar  Bind -9028465584</STUDENT>
+
+		</STUDENTS>
+	</EVENT>
+	<EVENT>
+		<TITLE>Speed Debugging</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>1</NOPPT>
+		<FEES>50</FEES>
+		<RULES>
+			<RULE>The contest will be held in the offline mode only.</RULE>
+			<RULE>Student should Participants as an individual member.</RULE>
+			<RULE>Programming language - C</RULE>
+			<RULE>The top 3 submissions fulfilling the judging criteria based on submission time,
+			elimination of all bugs and correctness of the output will be chosen as 1 st , 2 nd ,3 rd .</RULE>
+			<RULE>All decision made by the judges will be considered as final.</RULE>
+		</RULES>
+		<STAFFS>
+			<STAFF>Mr. K.M. Chaman Kumar</STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT>Mr. Neeyat Lotlikar-8830764340</STUDENT>
+			<STUDENT>Mr. Omkar Redkar-9075166875</STUDENT>
+		</STUDENTS>
+	</EVENT>
+	<EVENT>
+		<TITLE>Web Design</TITLE>
+		<FIRST>3000</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>2</NOPPT>
+		<FEES>50</FEES>
+		<RULES>
+			<RULE>Permitted Tools: HTML,JavaScript, CSS, Scss etc. Reusable codes frameworks are prohibited.</RULE>
+			<RULE>Maximum 2 members per group. </RULE>
+			<RULE>Participants need to design a 5+ pages website based on the topic given on the spot.</RULE>
+			<RULE>Raw data in the form of Pictures and Text will be provided to the participants which has to be used while building the website.</RULE>
+			<RULE>Use of internet and USB is strictly Prohibited. </RULE>
+			<RULE>Points will be given on the basis of Creativity, Smoothness, Efficient use of styling techniques and other criterias set forth by the judges.</RULE>
+			<RULE>Decision of the judges will be final.</RULE>
+
+		</RULES>
+		<STAFFS>
+			<STAFF>Miss Shama Dessai </STAFF>
+			<STAFF>Miss Sushma Illigar </STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT>Miss Shravani Nevagi </STUDENT>
+		</STUDENTS>
+	</EVENT>
+	<EVENT>
+		<TITLE>Projecto (HSSC and Diploma)</TITLE>
+		<FIRST>4000</FIRST>
+		<SECOND>2000</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>Max 5</NOPPT>
+		<FEES>Free</FEES>
+		<RULES>
+			<RULE>All participants have to register through email in advance or at registration desk.</RULE>
+			<RULE>The synopsis should be mailed at   techtwister22@gmail.com on or before 30th march 2016.</RULE>
+			<RULE>Hardware Projects-Hardware requirements like power supply, oscilloscopes (Quantity subject to availability) , etc. And required quantity must be clearly specified along with the synopsis.</RULE>
+			<RULE>Software Projects- The software required for the project needs to be brought by the participants. High end configuration of the system if required needs to be specified well in advance.</RULE>
+			<RULE>Students should come along with their identity card at the time of project representation.</RULE>
+			<RULE>Decision of the judges and the organising committee will be final and binding.</RULE>
+			<RULE>Scrutiny will be on the spot by the project experts.</RULE>
+			 
+			<RULE>FORMAT OF SYNOPSIS</RULE>
+
+			<RULE> Title of the project</RULE>
+			<RULE> Category of the project (hardware project and software)</RULE>
+			<RULE> Group member details</RULE>
+			<RULE> Name of the college and the address</RULE>
+			<RULE> Brief description of the project</RULE>
+			<RULE> Application of the project</RULE>
+			<RULE>Conclusion</RULE>
+
+
+
+			<RULE>TEXT FORMAT</RULE>
+
+			<RULE> Number of pages : 10(exclusive of other details)</RULE>
+			<RULE> Font : Times New Roman</RULE>
+			<RULE> Font Size : 12(normal text)</RULE>
+			<RULE> Synopsis must be either in .doc(Microsoft Word) or .pdf format only</RULE>
+
+
+		</RULES>
+		<STAFFS>
+			<STAFF>Veena Gaonkar -8975908622</STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT>Deeptesh Chari -8669154430</STUDENT>
+			<STUDENT>Virendrakumar  Bind -9028465584</STUDENT>
+
+		</STUDENTS>
+	</EVENT>
+	<EVENT>
+		<TITLE>Lathe Master</TITLE>
+		<FIRST>2500</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>1</NOPPT>
+		<FEES>100</FEES>
+		<RULES>
+			<RULE>Unleash your machining skills, and let in to the groove of screeching rhythms of turning, facing, tapering and all you can do on a lathe machine.</RULE>
+			<RULE>Contestants have to perform machining operations in the lathe within the given time. </RULE>
+			<RULE>The marking will depend on perfection and accurate dimensions of the work piece.</RULE>
+			<RULE>Participants are required to perform set of operations on the job using lathe machine for which problem statement will be declared on the spot.</RULE>
+			<RULE>There will be total two rounds on which performance will be evaluated accordingly winners.</RULE>
+			<RULE>Rules and Regulations:</RULE>
+			<RULE>Competition begins at 10 AM.Late entries are not appreciated.</RULE>
+			<RULE>All the participant should carry workshop aprons and wear leather shoes.</RULE>
+			<RULE>Not more than 1 tool would be provided. </RULE>
+			<RULE>Fine will be imposed if any damage to tool, Lathe Machine or surroundings occurs during operation.</RULE>
+			<RULE>Requirements for contestants include performing basic maths, interpreting machining tool chart and measuring instruments like Vernier callipers and steel rulers.</RULE>
+			<RULE>Work piece once given will not be replaced under any circumstances.</RULE>
+			<RULE>Tools and instruments which are provided for the machining should be inspected once it is provided before round 2 begins.</RULE>
+			<RULE>The College and staff will not be responsible for any accidents that may occur.</RULE>
+			<RULE>Instructors will not assist the contestants during the event until any technical errors occur.</RULE>
+			<RULE>Negative marking will be there for every dimensional error.</RULE>
+			<RULE>After the completion of the task all the accessories must be returned.</RULE>
+			<RULE>No extra time will be given to any contestants in case any damage or technical errors on the side of the participants.</RULE>
+			<RULE>Decision of judges will be final and unbiased.</RULE>
+			<RULE>Rounds: There will be two rounds</RULE>
+			<RULE>Round 1 [Qualifier Round]
+			Round 1 will be Qualifier Round consisting of a short quiz based upon Lathe Machines and its operations. Participants who have secured 60% of the marks will proceed to second round.</RULE>
+			<RULE>Round 2 
+			Round two will be profile cutting of the model of given dimensions, which has to be completed in 45 mins.</RULE>
+
+
+		</RULES>
+		<STAFFS>
+			<STAFF>Mr Sarvesh Rane</STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT> Mr Vipul Naik </STUDENT>
+		</STUDENTS>
+	</EVENT>
+	<EVENT>
+		<TITLE>Catapult</TITLE>
+		<FIRST>4500</FIRST>
+		<SECOND>3000</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>1</NOPPT>
+		<FEES>150</FEES>
+		<RULES>
+			<RULE>The event will begin at 9:30 am and continue until all teams have completed their test trial after which rounds will begin from 10:30 am.</RULE>
+			<RULE>Each team must consist of three (3) or four (4) members and each member may only be assigned to one team. </RULE>
+			<RULE>Colleges may enter more than one team in the competition; maximum of five (5). </RULE>
+			<RULE>Teams will run their catapults during the two Rounds 
+			Accuracy Competition 
+			Range Competition</RULE>
+			<RULE>Top three scoring teams will be awarded trophies.  </RULE>
+			<RULE>The same catapult must be used for both the accuracy and range competitions. </RULE>
+			<RULE>The rules for Accuracy and Range competition are mentioned below.</RULE>
+			<RULE>Catapult Accuracy Competition Rules</RULE>
+			<RULE>3 launch stations will be set up for each team to fire at the target.</RULE>
+			<RULE>Catapults may fire three shot only from each station.  </RULE>
+			<RULE>A catapult will have 15 minutes to move to all 3 launch stations and fire all 3 shots.</RULE> 
+			<RULE>Catapults must be mobile and cannot be carried between launch stations. </RULE>
+			<RULE>A target will be set up in order to measure the accuracy of each shot.</RULE>
+			<RULE>Catapult Range Competition Rules</RULE>
+			<RULE>Must use the same catapult for both events and no modifications are allowed.</RULE>
+			<RULE>Catapult must be aligned in the starting box.</RULE>
+			<RULE>The catapult will be given 3 shots to shoot a projectile as far as possible.</RULE>
+			<RULE>The furthest of the three shots will be measured to determine the catapults distance index.  </RULE>
+
+		</RULES>
+		<STAFFS>
+			<STAFF>Mr Mahesh Haldankar </STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT> Mr Diptesh Valvaikar   </STUDENT>
+		</STUDENTS>
+	</EVENT>
+	<EVENT>
+		<TITLE>NFS Most Wanted</TITLE>
+		<FIRST>2500</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>1</NOPPT>
+		<FEES>100</FEES>
+		<RULES>
+			<RULE>Rules for Preliminaries:
+				Game Type: Circuit, Sprint the Circuit is for 2 rounds Players getting the 1st position shall qualify for the next round.
+				Rules for the tournament:
+				 1. The tournament will be knockout.2. The player who wins their 1st stage match advances to the next stage. 3. There will not be any match played for the third spot.
+				Game Settings
+				1. Courses: Course selection is done by the Game Administrator
+				2. Car Settings: All cars are available.
+				3. Race Mode Options: 
+				* Nitrous: On 
+				* Collision Detection: on 
+				* Performance Matching: Off 
+				* Units: Player's own discretion 
+				4. Player Mode Options: 
+				* Game Moment Camera: Off 
+				* Car Damage: Off 
+				* Rear View Mirror: Player's own discretion..
+				5. Players are provided with a standard keyboard and mouse. Other Controllers and Steering Wheel are allowed
+
+				Penalty for Unfair Play
+				•Unfair play
+				•Use of any cheat program
+				•Intentional disconnection
+				•Use of any settings exceeding standard and permitted settings If the match is disrupted due to unnecessary chatting, the player may be given a warning or lose by default at the referee’s sole discretion. Upon discovery of any player committing any violations regarded as unfair play, that player will be disqualified from the Tournament/Preliminaries. During the course of any match, the operations staff and/or referee may determine other actions Tobe unfair play at any time. Two warnings constitute being disqualified from the Tournament/Preliminaries.
+
+				Rules and Regulations: 
+				1. Game: Need for Speed -Most Wanted 
+				2. The game has to be played only on keyboard. Any other controllers are not permitted. 
+				3. Tournament Format: 
+				4 Players play at a time. The first two players to complete the race will be in to the next round ( no. of players who advance to the next round is subject to total number of registrations for the game). 
+
+				Game Type:- Circuit \ Sprint \ Speed Trap \Lap Knockout :-to be decided based on the stage of the tournament. 
+
+				Winning a race: 
+				• Sprint/Circuit: Winner is the person who finishes the race first. 
+				• Speed Trap/Lap Knockout: Winner is the person who finishes first in lap knockouts or covers the most distance in speed trap is one who finishes the race with max. Speed. 
+
+				6. At the end of each match, players must maintain the final screens and receive confirmation from a referee. Wining rules are subject to modification by organizing committee’s own discretion. 
+
+				7. Jury decision will be final decision. 
+
+				1. The judging criteria will be depend on number of participants, number of rounds and scores of the event. 
+				2. Judges can make any changes in criteria at the time of event. 
+				3. Jury decision will be final decision. 
+
+				Car Settings: 
+				1. All cars unlocked. Players will be given a limited amount of time to customize their cars to their liking. Default will be BEST. 
+				2. Junkman is not allowed. 3. Personal save profile is NOT allowed. 
+
+				Race Mode Options: Circuits\ Sprint \ Speed Trap \Lap Knockout
+				1. LAPS: At the discretion of organizing committee. 
+				2. N20: ON 
+				3. Units: Player’s own discretion. 
+				4. Car Damage: Off 
+				5. Rear-view Mirror: Player’s own discretion. 
+
+				Note (if any) 
+				1. The above rules may change and should be checked by the participants before the start of the event. The coordinators reserve the rights to change the rules depending upon the situations. 
+				2. Rules and Information will be announced before the start of each game.</RULE>
+
+		</RULES>
+		<STAFFS>
+			<STAFF>Mr Sarvesh Rane</STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT> Mr Bhavesh Madkaikar (9822377569)
+				Sairaj Dessai (9763052570)</STUDENT>
+		</STUDENTS>
 	</EVENT>
 
+	<EVENT>
+		<TITLE>CS GO</TITLE>
+		<FIRST>2500</FIRST>
+		<SECOND>1500</SECOND>
+		<DAY>1</DAY>
+		<NOTPC>Unlimited</NOTPC>
+		<NOPPT>1</NOPPT>
+		<FEES>50</FEES>
+		<RULES>
+			<RULE>
+				1. Every Participant should have a valid college ID ( to be verified at the desk).
+				2. All team captains must provide the team’s valid stream ID.
+				3. There will be a buff of 10 minutes for each match past the buffer will be disqualification.
+				4. All captains must meet the coordinators 15 minutes before the match for map veto.
+				5. Entry fee is to be paid through UPI**.
+				6. Slot to be confirmed only after successful payment.
+				7. Limited to 8 teams on a first come first serve basis.</RULE>
 
-
-
-
-
-
-
-
-
-	<!-- <CD>
-		<TITLE>Empire Burlesque</TITLE>
-		<ARTIST>Bob Dylan</ARTIST>
-		<COUNTRY>USA</COUNTRY>
-		<COMPANY>Columbia</COMPANY>
-		<PRICE>10.90</PRICE>
-		<YEAR>1985</YEAR>
-	</CD>
-	
-	<CD>
-		<TITLE>Unchain my heart</TITLE>
-		<ARTIST>Joe Cocker</ARTIST>
-		<COUNTRY>USA</COUNTRY>
-		<COMPANY>EMI</COMPANY>
-		<PRICE>8.20</PRICE>
-		<YEAR>1987</YEAR>
-	</CD> -->
+			<RULE>Game Rules 
+				1. Matches will be played on custom 128-tick servers.
+				2. Veto will be done on the server itself(Only captains can do it)
+				3. Default players model required.
+				4. The Captain should inform (2hrs before the match) thre admins if their players aren’t available or else it will be a forfeit win for their opponent.
+				5. Trash talking (in-game or chat) will lead to direct disqualification.
+				6. Lobby waiting time will 10mins. If the game doesn’t start in that time then it will be declared as a draw If both the teams are not ready, resulting in the Elimination of both the said teams.
+				7. The Fixtures listing will be done 24hrs before the match starts .
+				8. Hacking/Cheating /Smurfing will lead to direct disqualificaton and as well as a monetary penalty.
+				9. All teams will be limited to 1 substitute player.</RULE>
+			<RULE>Map Pool:
+				1. de_inferno
+				2. de_mirage
+				3. de_nuke
+				4. de_overpass
+				5. de_dust2
+				6. de_vertigo</RULE>
+		</RULES>
+		<STAFFS>
+			<STAFF>Mr Anish Bandekar</STAFF>
+		</STAFFS>
+		<STUDENTS>
+			<STUDENT>Mr Ansel Dsouza ( 9370736284) </STUDENT>
+			<STUDENT>Mr Charlton Dacosta (9011526992)</STUDENT>
+		</STUDENTS>
+	</EVENT>
 </CATALOG>

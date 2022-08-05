@@ -4,21 +4,36 @@
 
 #video-section div{     
     background: 
-        /* top, transparent black, faked with gradient */ 
-        linear-gradient(
-        rgba(0, 0, 0, 0.7), 
-        rgba(0, 0, 0, 0.7)
-        ),
-        /* bottom, image */
-        url(https://images.unsplash.com/photo-1614030424754-24d0eebd46b2)
-        /* url(/assets/background-gif.gif) */
+        /* top, transparent black, faked with gradient */   
+        /* linear-gradient(180deg
+        ,#f7c62600 15%,#ff330049 50%,#e5127c00 85%), */
+        url(https://i.imgur.com/S3MeMJZ.png)
         ;  
     background-position: top;
     height: 100vh;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
     color: rgb(255, 230, 0);
     font-size: 3em;
     text-shadow: 100px 100px 100px 100px black;
+    /* position: fixed; */
+    z-index: -1;    
+    background-position: center;
+
+}
+#video-section div svg{ 
+    width: 150px;  /* 99 103 */
+    height: 154px;
+}
+@media only screen and (max-width:900px) {
     
+    #video-section div{ 
+        height: 40vh;
+        background-size: contain;
+    }
+    #video-section div svg{ 
+        width: 70px;
+        height: 72px;
+    }
 
 }

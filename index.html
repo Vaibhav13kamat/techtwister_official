@@ -4,25 +4,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <!-- <script src="jquery/jquery-3.6.0.min.js"></script> -->
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-
-
-    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
-    <script src="Bootstrap/js/bootstrap.js"></script>
+    <!-- <link rel="stylesheet" href="Bootstrap/css/bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <script src="Bootstrap/js/bootstrap.js"></script> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    
+
 
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/top-banner.css">
     <link rel="stylesheet" href="css/section1.css">
-    
     <link rel="stylesheet" href="css/valorantButtons.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/mystyles.css">
@@ -31,10 +29,11 @@
     <link rel="stylesheet" href="css/team.css">
     <link rel="stylesheet" href="css/fromTheDesk.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/svg-logo-anim.css">
 
 
 
-    <script src="jquery/jquery-3.6.0.min.js"></script>
+
     <script>
         $(function () {
             $("#includedContent").load("event-details.html");
@@ -42,19 +41,34 @@
     </script>
     <link rel="stylesheet" href="css/event-details.css">
     <script src="scripts/modal-content-setter.js"></script>
+    <script src="scripts/top-banner.js"></script>
 
 
 
     <title>Tech Twister</title>
+
+    <!-- banner  -->
+    <div class="banner container-fluid ">
+
+        <div class="row align-items-center">
+            <img src="https://ritgoa.ac.in/wp-content/uploads/2019/06/RIEIT.png" alt="RIEIT">
+        </div>
+
+
+    </div>
+
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-black p-2 ">
-
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-black p-2 container-ab demo animated">
+        <div class="text-center   m-1   ">
+            <img src="assets/favicon.ico" alt="">
+        </div>
         <a class="navbar-brand" href="#">
-            <p class="nav-tech-twister">Tech Twister</p>
+            <p class="nav-tech-twister">Tech Twister 2022</p>
         </a>
+
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -86,7 +100,7 @@
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="https://forms.gle/fw4qf5MjEpAnYHwh9">
                         <p class="nav-font">REGISTER</p>
                     </a>
                 </li>
@@ -96,38 +110,23 @@
 
 
     <div id="video-section" class="container-fluid">
-        <div
-            class="row my-custom-row justify-content-center align-items-center flex-column ">
-            <p class="vs-tt hack text-center ">TECH TWISTER</p>
-            <button class="btn w-auto" onclick="location.href='#events-section'">
+        <div class="row my-custom-row justify-content-center align-items-center flex-column ">
+            <!-- <p class="vs-tt hack text-center ">TECH TWISTER 2022</p> -->
+            <svg viewBox="0 0 99 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M78 9C78 13.9706 73.9706 18 69 18C65.2708 18 62.0714 15.7319 60.7059 12.5H8V28H28.5V67L45 67V28H77.5V67H98.5V98H37.0645C35.5918 100.963 32.5337 103 29 103C24.0294 103 20 98.9706 20 94C20 89.0294 24.0294 85 29 85C32.5337 85 35.5918 87.0366 37.0645 90H90.5V75.5H69V37H52.5V75.5H20.5V37H0.5V5H60.9355C62.4082 2.03656 65.4663 0 69 0C73.9706 0 78 4.02944 78 9Z" fill="#f49f01"/>
+            </svg>
+            <!-- previous logo color #27FFA4 -->
+                
+            <!-- <button class="btn w-auto" onclick="location.href='#events-section'">
                 <span class="btn__inner">
                     <span class="btn__slide"></span>
                     <span class="btn__content">Go to EVENTS</span>
                 </span>
-            </button>
+            </button> -->
         </div>
     </div>
 
-
-
-    <!-- <div class="container-fluid ">
-        <div class="row  justify-content-center align-items-center flex-column  ">
-            <img class="row" src="assets/profile.png" style="width: 300px; height: 300px;" />
-            IT'S THE TECHNICAL SKILLS WHICH <br> DEFINE AN ENGINEER
-            <hr style="color: rgb(255, 0, 0);
-            opacity: inherit;
-            width: 15em;
-            height: 0.2rem;
-            border: 10px solid white;
-            border-radius: 20px;
-            ">
-            <div class="row justify-content-end pr-5 val-font2" >
-                21st and 20th April
-            </div>
-        </div>
-        <a id="events-section"></a>
-    </div> -->
-
+    
 
     <!-- Events section  -->
     <div id="events-heading" class="row events-heading justify-content-center mt-5">EVENTS</div>
@@ -137,92 +136,99 @@
 
             <div id="item1" class=" item-common col-9 item-type-long " type="button" data-toggle="modal"
                 href="#event-details-html" onclick="fun(0)">
-                <img class="" src="assets/events/images (17)_edited.jpeg.jpg" alt="">
+                <img class="" src="https://i.imgur.com/XpW8aUBl.jpg" alt="">
                 <div class="">
-                    <p>ROBO SOCCER: NO CAP ; WHO WILL BE THE NEW CHAMPION
+                    <p>Robo Soccer: <br> For the game for the World
                     </p>
                 </div>
             </div>
             <div id="item2" class=" item-common  col-3 item-type-small" type="button" data-toggle="modal"
                 href="#event-details-html" onclick="fun(1)">
-                <img type="button" src="assets/events/drone-above-water.jpg" alt="">
-                <div>Drone Cinematography</div>
+                <img type="button" src="https://i.imgur.com/zihu2sgl.png" alt="no mouse">
+                <div>! Click (HSSC only)</div>
             </div>
             <div id="item3" class=" item-common  col-3 item-type-small" type="button" data-toggle="modal"
                 href="#event-details-html" onclick="fun(2)">
-                <img type="button" src="assets/events/images (18)_edited.jpeg.jpg" alt="">
-                <div>PUBG: ENEMIES AHEAD!</div>
+                <img type="button" src="https://i.imgur.com/0044llYl.jpg" alt="">
+                <div>BGMI!!</div>
             </div>
             <div id="item4" class=" item-common  col-9 item-type-long" type="button" data-toggle="modal"
                 href="#event-details-html" onclick="fun(3)">
-                <img src="assets/events/images (19)_edited.jpeg.jpg " alt="">
+                <img src="https://i.imgur.com/gqccZdDl.jpg" alt="">
                 <div>
-                    <p>MORTAL KOMBAT:<br>THERE ARE FATES WORSE THAN DEATH!</p>
+                    <p>Drone Photography</p>
                 </div>
             </div>
             <div id="item5" class=" item-common  col-4 item-type-medium type=" button" data-toggle="modal"
                 href="#event-details-html" onclick="fun(4)"">
-                <img src=" assets/events/quiz.png " alt="">
+                <img src="https://i.imgur.com/qk288jOl.png" alt="">
                 <div><p>Tech Quiz</p></div>
             </div>
             <div id=" item6" class=" item-common col-4 item-type-medium type=" button" data-toggle="modal"
                 href="#event-details-html" onclick="fun(5)"">
-                <img type=" button" src="assets/events/debate.jpg " alt="">
+                <img type=" button" src="https://i.imgur.com/EG6FZwBl.jpg" alt="">
                 <div>
-                    <p>Debate</p>
+                    <p>Zunjh (debate)</p>
                 </div>
             </div>
             <div id="item7" class=" item-common  col-4 item-type-medium type=" button" data-toggle="modal"
                 href="#event-details-html" onclick="fun(6)"">
-                <img type=" button" src="assets/events/lin-follower.jpg" alt="">
+                <img type=" button" src="https://i.imgur.com/obsGY3nl.jpg" alt="">
                 <div>
                     <p>Line Follower</p>
                 </div>
             </div>
             <div id="item8" class=" item-common  col-9 item-type-long type=" button" data-toggle="modal"
-                href="#event-details-html" onclick="fun(7)"">
-                <img type=" button" src="assets/events/software-projecto.jpg" alt="">
+                href="#event-details-html" onclick="fun(14)"">
+                <img type=" button" src="https://i.imgur.com/fzLHPZ4l.jpg" alt="">
                 <div>
-                    <p>SOFTWARE PROJECTO</p>
+                    <p>Counter Strike : Global Offensive</p>
                 </div>
             </div>
             <div id="item9" class=" item-common  col-3 item-type-small" type="button" data-toggle="modal"
                 href="#event-details-html" onclick="fun(8)">
-                <img type="button" src="assets/events/debugging.png" alt="">
+                <img type="button" src="https://i.imgur.com/l0d0zXil.png" alt="">
                 <div>Code Debugging</div>
             </div>
 
             <div id="item10" class=" item-common  col-4 item-type-medium" type="button" data-toggle="modal"
                 href="#event-details-html" onclick="fun(9)">
-                <img src="assets/events/web-design.jpg" alt="">
+                <img src="https://i.imgur.com/fnUGOGZl.jpg" alt="">
                 <div>
                     <p>Web Design</p>
                 </div>
             </div>
             <div id="item11" class=" item-common col-4 item-type-medium type=" button" data-toggle="modal"
-                href="#event-details-html" onclick="fun(10)"">
-                <img type=" button" src="assets/events/hardware-projecto.jpg" alt="">
+                href="#event-details-html" onclick="fun(7)"">
+                <img type=" button" src="https://i.imgur.com/FTjZsx6l.jpg" alt="">
                 <div>
-                    <p>Hardware Projecto</p>
+                    <p>Projecto</p>
+                </div>
+            </div>
+            <div id="item15" class=" item-common col-4 item-type-medium type=" button" data-toggle="modal"
+                href="#event-details-html" onclick="fun(10)"">
+                <img type=" button" src="https://i.imgur.com/FTjZsx6l.jpg" alt="">
+                <div>
+                    <p>Projecto HSSC/Diploma</p>
                 </div>
             </div>
             <div id="item12" class=" item-common col-4 item-type-medium type=" button" data-toggle="modal"
                 href="#event-details-html" onclick="fun(11)"">
-                <img type=" button" src="assets/events/lathe-machine-500x500.jpg" alt="">
+                <img type=" button" src="https://i.imgur.com/uU6iKFil.jpg" alt="">
                 <div>
                     <p>Lathe Master</p>
                 </div>
             </div>
-            <div id="item12" class=" item-common col-4 item-type-medium type=" button" data-toggle="modal"
+            <div id="item13" class=" item-common col-4 item-type-medium type=" button" data-toggle="modal"
                 href="#event-details-html" onclick="fun(12)"">
-                <img type=" button" src="assets/events/tech-out-of-waste.jpg" alt="">
+                <img type=" button" src="https://i.imgur.com/6bdOSq9.gif" alt="">
                 <div>
-                    <p>Tech out of Waste</p>
+                    <p>Catapult</p>
                 </div>
             </div>
-            <div id="item13" class=" item-common col-4 item-type-medium type=" button" data-toggle="modal"
+            <div id="item14" class=" item-common col-4 item-type-medium type=" button" data-toggle="modal"
                 href="#event-details-html" onclick="fun(13)"">
-                <img type=" button" src="assets/events/most-wanted.jpg" alt="">
+                <img type=" button" src="https://i.imgur.com/OiFvjNnl.jpg" alt="">
                 <div>
                     <p>NFS Most Wanted</p>
                 </div>
@@ -235,7 +241,7 @@
     <div id="below-events-section" class="container ">
 
         <div class="row justify-content-center align-items-center">
-            <div id="below-events-section-left-part" class=" col-6 text-right">
+            <div id="below-events-section-left-part" class="col-6">
                 It's the Technical Skills that
                 Define an Engineer
             </div>
@@ -280,85 +286,6 @@
     </div>
 
 
-    <!-- team section  -->
-    <div id="team-section" class="container team-section">
-        <h2>
-            <div class="row my-custom-row justify-content-center    ">
-                THE TEAM
-            </div>
-        </h2>
-
-        <div class="row justify-content-center">
-            <hr style="
-            width: 10em;
-            border: 3px solid white;
-            border-radius: 5px;
-            ">
-        </div>
-
-        <div class="row justify-content-evenly align-items-center ">
-
-            <div class="container-fluid pentagon m-2">
-                <div class="row align-items-center">
-                    <img class="col-4 p-2" src="assets/team/ch.jpg" alt="">
-                    <div class="col ">
-                        <p class="team-name hack">Srajan Shetty</p>
-                        <p class="team-designation hack">Technical Secretary</p>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="container-fluid pentagon m-2">
-                <div class="row align-items-center">
-                    <img class="col-4 p-2" src="assets/team/ch.jpg" alt="">
-                    <div class="col ">
-                        <p class="team-name hack">Narendra Modi</p>
-                        <p class="team-designation hack">Prime Minister</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid pentagon m-2">
-                <div class="row align-items-center">
-                    <img class="col-4 p-2" src="assets/team/ch.jpg" alt="">
-                    <div class="col ">
-                        <p class="team-name hack">Srajan Shetty</p>
-                        <p class="team-designation hack">Technical Secretary</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid pentagon m-2">
-                <div class="row align-items-center">
-                    <img class="col-4 p-2" src="assets/team/ch.jpg" alt="">
-                    <div class="col ">
-                        <p class="team-name hack">Srajan Shetty</p>
-                        <p class="team-designation hack">Technical Secretary</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid pentagon m-2">
-                <div class="row align-items-center">
-                    <img class="col-4 p-2" src="assets/team/ch.jpg" alt="">
-                    <div class="col ">
-                        <p class="team-name hack">Srajan Shetty</p>
-                        <p class="team-designation hack">Technical Secretary</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid pentagon m-2">
-                <div class="row align-items-center">
-                    <img class="col-4 p-2" src="assets/team/ch.jpg" alt="">
-                    <div class="col ">
-                        <p class="team-name hack">Srajan Shetty</p>
-                        <p class="team-designation hack">Technical Secretary</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-
     <!-- From the desk  -->
 
     <div id="from-the-desk" class="container  bg-opacity-10 ">
@@ -378,25 +305,57 @@
         <div class="container ">
             <div class="row align-content-center ">
                 <div class="col-sm-4">
-                    <img class="col-4 p-2" src="assets/team/ch.jpg" alt="">
+                    <img class="col-4 p-2" src="https://i.imgur.com/5QpKW8P.jpg" alt="">
                     <p>Mr. Subhash Shirodkar</p>
                     <p>CHAIRMAN</p><br>
-                    <p>"Our Institute has endeavoured to develop a sense of ethics, discipline, dedication, devotion and
-                        commitment in its students."</p>
+                    “Our Institute has endeavored to develop a sense of ethics, discipline, dedication, devotion and
+                    commitment in its students.”
+                    <br><br>
+                    Science and technology have been the foundation for advancement of
+                    civilizations. With improved communications between the societies,the mankind, as a whole,
+                    has benefited from the fruits of science and technology, not withstanding from where this
+                    advancements initially came. Recent advances in communication and transportation have
+                    enabled man to ensure speedier and more efficient transfer of technologies over long
+                    distances and across continents. This has resulted in distances being virtually
+                    ‘insignificant’. In reality, the relevance of the distance is increasingly becoming ‘
+                    inconsequential ‘ resulting in ‘shrinking world’, the “Globe” being transformed into a
+                    village.
+
                 </div>
 
                 <div class="col-sm-4">
-                    <img class="col-4 p-2" src="assets/team/ch.jpg" alt="">
-                    <p>Dr. Anurag Jain</p>
+                    <img class="col-4 p-2" src="https://i.imgur.com/pTodHMlm.jpg" alt="">
+                    <p>Dr. Shailendra Aswale</p>
                     <p>PRINCIPAL</p>
-                    <p>"We are aiming towards educating our students with perfect blend of intellectual and practical
-                        experience that helps to serve the society and address Social and Industrial needs. Our Academic
-                        programs are well focussed to prepare professionals in specialized areas of engineering."</p>
+                    “Shivgram Education Society’s Shree Rayeshwar Institute of Engineering and Information Technology
+                    was established on September 17, 2001 with its 30 acre campus and is located on top of the lush
+                    green Kamaxi hill. Shri. Subhash Shirodkar, Chairman of Shivgram Education Society, envisaged an
+                    engineering college to cater to the needs of the youth.
+                    <div>
+                        <br>
+                        <span id="text">RIT-GOA aims at providing quality professional education with a strong
+                            industrial symbiosis. The Institute is named after ‘Rayeshwar’, patron and the God of the
+                            people of Shiroda. The institute’s motto ‘Empowerment through Technology’ is a step ahead in
+                            the direction of the Society’s endeavour,’ Empowerment through Education.
 
+                            The Institute is constantly turning itself to be competent in the field of education with
+                            respect to present scope and challenges in the field of engineering and technology; with
+                            upgraded academic programmes, thus providing a cutting edge in the market.
+
+                            With emphasis on industry requirements and curriculum tailored around fast changing
+                            information technology, the college has consistently produced a crop of able technocrats.
+                            The students are equipped with the necessary skills and work ethos to tackle any challenge
+                            that the industry throws at them.”
+                            <br>
+                        </span>
+                    </div>
+                    <div class="btn-container">
+                        <button id="toggle">Read More</button>
+                    </div>
                 </div>
 
                 <div class="col-sm-4">
-                    <img class="col-4 p-2" src="assets/team/ch.jpg" alt="">
+                    <img class="col-4 p-2" src="https://i.imgur.com/9ylvdJPm.jpg" alt="">
                     <p>Prof. Vijaykumar Naik Pawar</p>
                     <p>TECHTWISTER FACULTY IN CHARGE</p>
                     <p>"Current century is widely recognized as Knowledge Century: Knowledge comes through learning.
@@ -408,7 +367,7 @@
                         alike.
                         It is often expressed that those completing higher education are not always employable. The
                         skill
-                        levels need upgradation. Events such as Techtwister’19 aims at this."
+                        levels need upgradation. Events such as Techtwister’22 aims at this."
                     </p>
                 </div>
 
@@ -416,6 +375,88 @@
         </div>
 
     </div>
+
+
+
+
+
+
+
+    <!-- team section  -->
+    <div id="team-section" class="container team-section">
+        <h2>
+            <div class="row my-custom-row justify-content-center    ">
+                THE TEAM
+            </div>
+        </h2>
+
+        <div class="row justify-content-center">
+            <hr style="
+            width: 10em;
+            border: 3px solid white;
+            border-radius: 5px;
+            ">
+        </div>
+
+        <div class="row justify-content-evenly text-center ">
+
+            <div class="container-fluid pentagon m-2">
+                <div class="row align-items-center">
+                    <img class="col-4 p-2 imp-team-member" src="https://i.imgur.com/yoImMhb.jpg" alt="">
+                    <div class="col-12">
+                        <p class="team-name hack">Ms. Shreya Dessai</p>
+                        <p class="team-designation hack">General Secretary & ETSA Coordinator</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container-fluid pentagon m-2">
+                <div class="row align-items-center">
+                    <img class="col-4 p-2 imp-team-member" src="https://i.imgur.com/kcvmL1zl.jpg" alt="">
+                    <div class="col-12">
+                        <p class="team-name hack">Mr. Srajan Shetty</p>
+                        <p class="team-designation hack">Technical Secretary</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-evenly align-items-center ">
+
+            <div class="container-fluid pentagon m-2">
+                <div class="row align-items-center">
+                    <img class="col-4 p-2" src="https://i.imgur.com/CrTaQQjl.jpg" alt="">
+                    <div class="col ">
+                        <p class="team-name hack">Ms. Riya Naik</p>
+                        <p class="team-designation hack">CLICK President</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid pentagon m-2">
+                <div class="row align-items-center">
+                    <img class="col-4 p-2" src="https://i.imgur.com/B6fxQErl.jpg" alt="">
+                    <div class="col ">
+                        <p class="team-name hack">Mr. Prathik Shirodkar</p>
+                        <p class="team-designation hack">ELITE President</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid pentagon m-2">
+                <div class="row align-items-center">
+                    <img class="col-4 p-2" src="https://i.imgur.com/oWmHQShl.jpg" alt="">
+                    <div class="col ">
+                        <p class="team-name hack">Mr. Vipul Naik</p>
+                        <p class="team-designation hack">MESA president</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
 
 
 
@@ -432,17 +473,17 @@
 
                 <h2>FOLLOW US ON</h2>
                 <div class="">
-                    <a href="https://instagram.com/RITTechTwister"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+                    <a href="https://instagram.com/techtwister_2022"><svg xmlns="http://www.w3.org/2000/svg" width="32"
                             height="32" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16" style="
                         color: black;">
                             <path
                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                         </svg></a> &nbsp;
-                    <a href="https://www.facebook.com/ritTechTwister/"> <svg xmlns="http://www.w3.org/2000/svg"
+                    <!-- <a href="https://www.facebook.com/ritTechTwister/"> <svg xmlns="http://www.w3.org/2000/svg"
                             width="32" height="32" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                             <path
                                 d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                        </svg></a>
+                        </svg></a> -->
                 </div>
 
 
@@ -471,5 +512,7 @@
 
 </body>
 <script src="scripts/hacktext.js"></script>
+<script src="scripts/nav-collapse.js"></script>
+<script src="scripts/desk-collapse.js"></script>
 
 </html>
